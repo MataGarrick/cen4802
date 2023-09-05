@@ -1,4 +1,9 @@
 
+/**
+ * @author Garrick Mata
+ * @version 1.0
+ * 
+ */
 
 public class Fibonacci {
 
@@ -11,7 +16,12 @@ public class Fibonacci {
 
 	}
 
-
+	/**
+	 * Takes parameter n and returns the nth number in the Fibonacci sequence	
+	 * @param n
+	 * @return
+	 */
+	
 	private static long fibSequnece(int n) {
 		if (n <= 1) {
 			return n;
